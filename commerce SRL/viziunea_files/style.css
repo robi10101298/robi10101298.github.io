@@ -1,0 +1,116 @@
+/* CSS Document */
+
+* {	margin:0; padding:0; font-size:100%;}
+
+body{background:#1e1917; text-align:center;}
+#main{ padding:0 25px 16px 25px;}
+
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+
+html{ font-family:Arial, Helvetica, sans-serif; font-size:0.75em; line-height:1.5em; color:#5e504d;}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a {color:#f92b00; font-weight:bold;}
+a:hover{text-decoration:none;}
+p {padding-top:18px;}
+strong{ color:#e88337; font-weight:normal;}
+.strong1{ color:#ffffff;}
+
+/* ============================= main layout ====================== */
+.imgindent {margin:5px 27px 0 0; float:left;}
+.imgindent2 {margin:3px 7px 0 0; float:left;}
+.padding0{ padding-top:0 !important; margin-top:-4px;}
+.padding1{ padding-top:19px;}
+.padding2{ padding-top:8px;}
+.padding3{ padding-top:26px;}
+.padding4{ padding-top:14px;}
+.margin1{ margin-top:25px;}
+.margin2{ margin-top:15px;}
+
+/* ============================= header ====================== */
+#header{ position:relative;}
+#header .flash{ position:absolute; margin:0 25px 0 -25px;}
+
+/* ============================= content ====================== */
+#content{ background:#191413;}
+.col-2{ margin-left:33px;}
+
+.type1 .column-1{ width:232px; background:#25201f;}
+.type1 .column-2{ width:698px;}
+.type1 .column-1 .indent{ padding:27px 25px 27px 27px;}
+.type1 .column-2 .indent{ padding:27px 30px 23px 25px;}
+
+.type1 .column-1 .title{ padding-bottom:31px;}
+.type1 .column-2 .title{ padding-bottom:24px;}
+
+.type2 .column-1{ width:698px;}
+.type2 .column-2{ width:232px; background:#25201f;}
+.type2 .column-1 .indent{ padding:27px 27px 23px 25px;}
+.type2 .column-2 .indent{ padding:27px 25px 27px 27px;}
+
+.type2 .column-1 .title{ padding-bottom:24px;}
+.type2 .column-2 .title{ padding-bottom:31px;}
+
+.indent{ padding:27px 30px 23px 27px;}
+.title{ padding-bottom:24px;}
+
+.box{ background:url(images/box-top-bg.gif) top left no-repeat #100b0b;}
+
+.unline{ background:url(images/unline.gif) bottom repeat-x; padding-bottom:27px; margin-bottom:32px;}
+.link{ text-align:right; padding:14px 18px 0 0;}
+
+.box1{ background:url(images/box-corner-left-top.gif) left top no-repeat #1e1918;}
+.box1 .right-top{ background:url(images/box-corner-right-top.gif) right top no-repeat;}
+.box1 .left-bot{ background:url(images/box-corner-left-bot.gif) left bottom no-repeat; width:100%;}
+.box1 .right-bot{ background:url(images/box-corner-right-bot.gif) right bottom no-repeat; padding:13px 20px 13px 20px;}
+
+.list li{ background:url(images/list-marker.gif) no-repeat 0 9px; padding-left:14px; line-height:1.917em;}
+.list a{ color:#ffffff; text-decoration:none; font-weight:normal;}
+.list a:hover{ text-decoration:underline;}
+
+dt{background:url(images/list-marker.gif) no-repeat 0 9px; padding-left:14px;}
+dt a{ color:#ffffff; text-decoration:none; font-weight:normal;}
+dt a:hover{ text-decoration:underline;}
+dd{ padding:5px 0 5px 14px;}
+.last{ padding-bottom:0px;}
+
+.text1 strong{ color:#ffffff; background:url(images/strong-bg.gif) no-repeat 0 0; padding-left:23px; display:block;}
+.text2 strong{ color:#e88337; text-transform:uppercase; font-size:0.917em; background:url(images/strong-bg.gif) no-repeat 0 0; padding-left:23px; display:block;}
+.link1{ text-decoration:none; margin-left:5px;}
+.link1:hover{ text-decoration:underline;}
+.date{ color:#e88337; font-size:0.917em; padding-top:5px;}
+
+.links{ line-height:2.833em; padding-top:10px;}
+.links a{ color:#e88337; text-decoration:underline; font-weight:normal; display:block; padding-left:40px;}
+.links a:hover{ text-decoration:none;}
+.links .link1{ background:url(images/link-bg1.gif) no-repeat 0 2px; margin-left:0;}
+.links .link2{ background:url(images/link-bg2.gif) no-repeat 0 6px; padding-bottom:3px;}
+
+.phone{ float:right; padding-right:11px;}
+
+/* ============================= page2 ====================== */
+#page2 .row-2 .col-2{ margin-left:25px !important;}
+/* ============================= page4 ====================== */
+#page4 .col-2{ margin-left:25px !important;}
+
+/* ============================= footer ====================== */
+#footer{ background:url(images/footer-tail.gif) top repeat-x; margin-top:1px;}
+#footer .text{ padding:18px 0 0 25px;}
+#footer a{ color:#e88337; font-weight:normal; text-decoration:none;}
+#footer a:hover{ text-decoration:underline;}
+
+/* ============================= forms ============================= */
+#ContactForm label{ display:block; height:43px;}
+#ContactForm input{ border:solid 1px #5e504d; background:#25201f; font-family:Arial, Helvetica, sans-serif; font-size:1em; color:#ffffff; padding:1px 2px 2px 3px; width:243px;}
+#ContactForm textarea{ border:solid 1px #5e504d; background:#25201f; font-family:Arial, Helvetica, sans-serif; font-size:1em; color:#ffffff; padding:1px 2px 2px 3px; width:243px; overflow:hidden; height:105px;}
+#ContactForm .link{ padding:0 !important;}
+#ContactForm .link a{ display:inline-block; margin:10px 5px 0 10px;}
